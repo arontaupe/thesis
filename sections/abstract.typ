@@ -1,0 +1,8 @@
+//With reference to existing waste management systems, alternative concepts for collaborative participation in recycling processes will be developed. Methods for the investigation of human-waste relationships will be applied, as well as practical investigations to create a socially transformative relationship to the value and non-value of waste.
+With reference to existing waste management systems, alternative concepts for collaborative participation in recycling processes will be developed. 
+By examining the historical and material contexts of plastics, this thesis explores the role of making and hacking as transformative practices in waste revaluation. 
+Methods for the investigation of human-waste relationships will be applied, drawing on theories such as Rubbish Theory and Material studies, which highlight the shifting perception of objects between value and non-value. 
+Additionally, practical investigations, including workshop-based experiments with polymer identification and machine-based interventions, will provide hands-on insights into the material properties of discarded plastics. 
+Novel archiving practices will be introduced, together creating a novel methodology for artistic research and practice.
+Through these approaches, this research aims to foster a socially transformative relationship to waste, emphasizing participation, design, and speculative approaches to material reuse. 
+The findings will be evaluated based on participant feedback and workshop outcomes, contributing to a broader discussion on waste as both a challenge and an opportunity for sustainable futures and a material reality of the human experience.
