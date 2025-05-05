@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "logseq/*": true
+    },
+    "cSpell.words": [
+        "HDPE",
+        "LDPE",
+        "Libertinus",
+        "pagebreak"
+    ]
+}

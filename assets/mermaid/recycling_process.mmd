@@ -1,0 +1,52 @@
+%%{init: {
+  "theme": "default",
+  "themeVariables": {
+    "fontFamily": "Source Serif Pro",
+    "fontSize": "22px"  }
+}}%%
+
+flowchart LR
+    title[The Plastics Process in _ReShaping Plastics_]
+    WasteSources[Consumer Waste, 3D Printing Waste]
+
+    Cleaning[Cleaning] --> Shredding[Shredding]
+    Shredding -->|Sorting, Composition| WasteSources
+    WasteSources --> Melting
+    Melting[Melting] --> SheetForming[Sheet Forming]
+    SheetForming --> Shaping[Shaping]
+    Shaping --> PostProcessing[Post-processing]
+    PostProcessing --> ResearchObject[Research Object]
+
+    CNC[CNC] -->|Carves| Shaping
+    HeatPress[Heat Press] -->|Presses| SheetForming
+    HotAir[Hot Air] -->|Melts| Shaping
+    UploadStation[Upload Station] -->|Preserves| ResearchObject
+    MaterialStation[Material Station] -->|Collects, Sorts| WasteSources
+    PostProcessingStation[Post-processing Station] -->|Polishes| PostProcessing
+    DeskArea[Desk Area] -->|Discusses, Presents| ResearchObject
+
+    subgraph "Recycling Stages"
+        Cleaning
+        Shredding
+        Melting
+        SheetForming
+        Shaping
+        PostProcessing
+    end
+
+    subgraph "Reflective Tools"
+        UploadStation
+        DeskArea
+    end
+
+    subgraph "Material"
+        WasteSources
+    end
+
+    subgraph "Areas / Machines"
+        CNC
+        HeatPress
+        MaterialStation
+        HotAir
+        PostProcessingStation
+    end

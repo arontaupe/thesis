@@ -1,0 +1,5 @@
+- Makeitfrom
+	- [MakeItFrom.com: Material Properties Database](https://www.makeitfrom.com)
+- Prusa Materials database
+	- [Filament Material Guide | Prusa Knowledge Base](https://help.prusa3d.com/filament-material-guide)
+-

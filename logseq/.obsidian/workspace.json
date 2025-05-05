@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "d41d8a39b6946b87",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1066245e9bc94b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4400ec9488e65863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Thesis on Human - Waste.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thesis on Human - Waste"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65f5c165ea8e1b38",
+    "type": "split",
+    "children": [
+      {
+        "id": "4987155dca32c545",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56a6d8cf620a9d0a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6a7c6d8e0b623ebd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6de1ada1611d3be0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1331586b20759c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "620889a7bbeff798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26794789ea9ee41c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/human-waste-thesis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for human-waste-thesis"
+            }
+          },
+          {
+            "id": "ccba1d78ed6cfcc2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/human-waste-thesis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from human-waste-thesis"
+            }
+          },
+          {
+            "id": "f44812dc6519831c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "04eb78d3b47b5986",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/human-waste-thesis.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of human-waste-thesis"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "companion:Toggle completion": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4400ec9488e65863",
+  "lastOpenFiles": [
+    "pages/@Academy - Precious Plastic.md",
+    "pages/@Skill seeker%3A color in, level up, and get inspired.md",
+    "pages/hls__Yates - 2011 - The Human-As-Waste, the Labor Theory of Value and Disposability in Contemporary Capitalism.md",
+    "pages/Workshop Planning%3A Reshaping Plastics.md",
+    "pages/Workshob Liste einszwovier.md",
+    "pages/Pythontest.md",
+    "pages/human-waste-thesis.md",
+    "pages/@Identification of Polymers.md",
+    "pages/@Rubbish Theory%3A The Creation and Destruction of Value - New Edition%3A The Creation and Destruction of Value - New Edition.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T13_08_49.298Z.Desktop.md",
+    "assets/scans/2025-02-03 15:27:01.jpg",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_47_09.125Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_47_05.907Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_45_05.863Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_44_52.584Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_42_40.435Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_41_36.737Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_39_58.125Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_28_00.437Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis/2025-02-06T12_27_45.053Z.Desktop.md",
+    "logseq/bak/pages/human-waste-thesis",
+    "logseq/bak/pages",
+    "assets/scans/2025-02-03 14:37:06.jpg",
+    "assets/scans/2025-02-03 15:05:23.jpg",
+    "journals/2025_01_31.md"
+  ]
+}

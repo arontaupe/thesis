@@ -1,0 +1,1 @@
+- ![svg-test.svg](../assets/svg-test_1740054657682_0.svg)

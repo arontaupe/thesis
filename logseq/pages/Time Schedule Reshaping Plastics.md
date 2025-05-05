@@ -1,0 +1,53 @@
+tags:: workshop, planning, inküle
+public:: true
+
+- 26 & 27 February 2025 (Wed & Thu), 14:30 - 18:00
+- ## Day 1 (180 Min)
+	- ### Intro (60 min)
+		- Intro, Ankommen, Kennenlernen
+		- #### Little Theory (20 min)
+			- types of plastic
+				- difference thermoset, thermoelastics,
+				- Ecoplastics vs Oil-based ones? How eco are they?
+				- International Markings, [[Plastics Classes in Recycling Labels]]
+			- [[Identification of Plastics]]  (10 min)
+				- Only do Water, Alcohol Test and Oil test
+		- ### Explain the workflow: (30 min)
+			- Vorstellung Archiv
+			- Intro to versuchsaufbau databank / prozessdokumentation
+			- Explanation Markers
+				- [[Markers]]
+			- ### Machine Workflow (20 min)
+				- Cleaning/sorting
+				- Shredder
+				- Bin
+				- Oven
+				- HotPress
+				- #### Options of Plastics post-processing (10 min)
+	- BREAK (20 min)
+	- ### Building Marker ID Token (50 min)
+		- Design Token
+			- on paper
+			- Shaper Trace (digitize)
+		- Cut out
+		- Postprocess
+		- First Documentation of Markers
+		- Input on Material Study
+			- What are we exploring?
+			  Concise rules for Documentation
+		- Group Formation (5 min)
+	- #### First Sheet Production
+		- Cooldown for next day
+- ## Day 2 (180 Min)
+	- Recap, Questions (10 min)
+	- #### Free Work time on Sculpture (90 min)
+	- Postprocessing Sculpture (20 min)
+	- BREAK
+	- Group Reflections with Documentation uploads (15 min)
+	- #### Gallery Walk (20 min)
+		- scenic installation (
+	- #### Plenary reflection (20 min)
+		- outlook collection with whiteboard
+	- FIN
+- ## Tools Needed
+	- [[Plastic Tools]]

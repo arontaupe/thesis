@@ -1,0 +1,4 @@
+- Plastic-as-waste is a major environmental tragedy
+- Plastic-as-resource is a key civilizatory accelerator and one of the main enabling factors of a world structured along capitalist lines
+	- --> the plastocene
+- Can collective / communal work serve to bring about the shift from Plastic-as-waste to Plastic-as-resource?

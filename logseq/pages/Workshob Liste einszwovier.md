@@ -1,0 +1,108 @@
+- Umsetzbare Kurse im studio einszwovier in 2025
+- Vorlaufzeit: Kurse 1 und 2 fertig ausgearbeitet, Alle anderen Kurse bräuchten minimal 2 Wochen zusätzliche Vorbereitungszeit, um Workflows final zu testen.
+- Stand: [[10-02-2025]]
+- ## 1. Löten und Leuchten
+	- Einführungsworkshop
+	- Die Teilnehmenden modellieren und drucken kleine Nachtischlampen. Im zweiten Termin wird die Elektronik zusammengelötet um diese zum leuchten zu bringen. Hierbei wird auch das MakeyMakey Board aus der KlimaBox verwendet.
+	- **Skills**: 3D-Druck, 3d Modeling (Tinkercad/Shapr), Elektronik Grundlagen, Löttechnik
+	- **Hardware**: LEDs vorkonfektioniert, USB 2.0 Kabel, Filament (Kosten pro TeilnehmerIn ca 5 eur)
+	- **Software**: TinkerCAD. Shapr3D, Prusaslicer
+	- **Vorkenntnis**: Keine
+	- **Dauer**: 2x3 Stunden
+	- **Klassenstufe**: 6-9
+- ## 2. Vogelvilla
+	- Einführungsworkshop
+	- **Skills**: Lasercut, X-Tool, Grafikdesign(Canva), Holzbearbeitung, Vektoren, 
+	  SchülerInnen lernen Konstruktion mit Plattenmaterial aus dem Lasercutter.
+	- **Hardware**: Pappelholz (Baumarkt), Plastikfolie, Leinöl
+	- **Vorkenntnis**: Keine
+	- **Dauer:** 3x4h
+	- **Klassenstufe**: 7-11
+	- ### Add on/Follow-Up: Smart-Home for Birds
+		- Als weiteres Upgrade könnten die Vogelvillen noch mit Kameras/Sensoren ausgestattet werden. Auch Denkbar: Mit der "KI fürs Klima" Box und selbst gesammelten Fotos von heimischen Vögeln eine Vogelerkennungs- KI bauen.
+		- Umsetzbar mit permanent installierten Microcontrollern --> Stufe 10 +
+		- Oder auch temporär mit aufstellbarer Kamera --> Stufe 8+
+		- **Hardware**: Kamera, optional Microcontroller oder Raspberry Pi
+		- **Skills**: Microcontroller, Elektronik, Solar?, Object Recognition, Grundsätze Machine Learning
+		  Nur für Teilnehmende der Vogelvilla Kurse
+		  **Klassenstufe**: 8-11
+- ## 3. Reality Replica: 3D Scanning
+	- Einführung
+	  Erstellen von 3D Scans von Räumen und Objekten. Manipulations der Scans und Augmented Reality Darstellung.
+	- **Skills:** Mesh manipulation, Blender, Photogrammetry, World building
+	- **Notwendige Hardware:** iPads mit Lidar, iphones mit Lidar, Beleuchtung
+	- **Software:** Polycam, Scaniverse, Blender, Agisoft Metashape
+	- **Teilnehmerzahl:** 8 Max
+	- **Vorkenntnisse**: keine
+	- **Dauer:** 2x4 Stunden
+	- **Klassenstufe**: 9-11
+- ## 4. ElectroBloom: Die sprechende Pflanze
+	- Pflanzen für unser Studio werden mit Sensoren ausgestattet um automatisch gegossen zu werden, zu sprechen wenn sie durstig sind und ähnliches.
+	- **Skills**: Python, Dashboards, Audio via Raspberry
+	- **Notwendige Hardware:**  Pflanzen, Sensoren, RaspberryPis, Microcontroller, Raspberry Pi, Mini Lautsprecher, KlimaBox, KI fürs Klima, MakeyMakey
+	- **Teilnehmerzahl:**  10
+	- **Vorkenntnisse**: keine
+	- **Dauer:** 2x4 Stunden
+	- **Klassenstufe**: 7+
+- ## 5. WebCraft: Deine erste eigene Webseite mit JAMstack
+	- SchülerInnen bauen eine eigene Webseite, zum beispiel ein Portfolio. Dabei geht der fokus auf die Architektur und weniger auf das design. Wir werden einen JAM-Stack realisieren und diesen dann auf Github Pages öffentlich zugänglich schalten. https://jamstack.org
+	- **Skills**: Back-End web develompent 
+	  Notwendige **Hardware**: Tastaturen für iPads
+	- **Teilnehmerzahl**: 12 Vorkenntnisse: keine Dauer: 2x4 Stunden (+ Einzelsitzungen möglich zum Troubleshooten)
+	- **Klassenstufe**: 9+
+- ## 6. Robolympics
+	- Einführung und Grundlagen der Roboter Programmierung mit Lego Spike 
+	  **Skills**: Node-based-Programming, Python
+	  <https://spike.legoeducation.com>
+	- **Notwendige Hardware:**  Lego Spike, 1x pro 2 Teilnehmer
+	- **Teilnehmerzahl:** 8
+	- **Vorkenntnis**: keine
+	- **Dauer:** 2x4 Stunden
+	- **Klassenstufe**: 7-10
+- ## 7. Touchdesigner 101:
+	- **Skills**: Touchdesigner, python, node-based programming
+	- Notwendige **Hardware**: Läuft nicht auf iPads, müsste im Computerraum stattfinden
+	- **Teilnehmer**: ab 9.
+	  Wir kreiren ein dynamisches wallpaper mit touchdesigner, optional audioreaktiv.
+	- https://derivative.ca
+- ## 8. DIY-Fashion: Lerne Plotten & personalisiere deine Sachen!
+	- Einführung in die Grafikdesign Software und Plotten. Wir stellen Aufkleber für Trinkflaschen oder Handys her
+	- **Skills:** keine
+	- **Notwendige Hardware:** Plotter + Material, T-shirt
+	- **Notwendige Software:** Canva
+	- **Teilnehmerzahl:**12
+	- **Vorkenntnisse**: keine
+	- **Dauer:** 2x4 Stunden
+	- **Klassenstufe**:7+
+- ## 9.Werkzeugwand
+	- Für unser Studio bauen wir eine mobile Werkzeugwand. Die Teilnehmenden entwerfen und drucken Halterungen für Hand- und Powertools und stellen die Wand her.
+	- **Skills:** 3D Modellieren, 3D Druck, Holzverarbeitung
+	- **Notwendige Hardware:**  Werkzeuge,
+	- **Teilnehmerzahl:**10
+	- **Vorkenntnisse**: keine
+	- **Dauer:** 2x4 Stunden
+	- **Klassenstufe:** 7-11
+- ## 10. Roboterarm Pankow
+	- In der Stadtbibliothek steht ein Collaborativer Roboterarm. Die Teilnehmenden lernen die Bedienung des Armes. Weiterführend könnte sowohl das technische als auch in eine künstlerische performative Richtung vertiefen.
+	- **Skills:** Grundlagen der Robotik
+	- **Notwendige Hardware:** Franka Emika Panda Roboterarm (Gestellt von Bibliothek vor Ort)
+	- **Teilnehmerzahl:** 10
+	- **Vorkenntnis**: keine
+	- **Dauer: 4h**
+	- **Klassenstufe**: 7-10
+- ## 11. Sculpting mit Nomad
+	- Nomad ist eine Software zum digitalen Modellieren, mit der TeilnehmerInnen auf einem iPad 3D-Modelle intuitiv erschaffen können. In diesem Workshop lernen sie die Grundlagen des digitalen Sculptings und erstellen ihre eigenen 3D-Skulpturen. Salim wäre eine große Hilfe bei diesm Kurs :)
+	- **Skills:**3D-Sculpting, Digitales Modellieren, Kreatives Gestalten
+	- **Notwendige Hardware:** Tablets mit installierter Nomad Sculpt-Software, Stylus
+	- **Teilnehmerzahl:** 10
+	- **Vorkenntnisse:** Keine erforderlich
+	- **Dauer:** 2x4 Stunden
+	- **Klassenstufe:** 7-11
+- ## 12. Kicker Upgrade
+- TeilnehmerInnen nutzen 3D-Druck, um die Outdoor-Kickertische zu verbessern.
+- **Skills:** 3D-Modellierung, 3D-Druck, Produktdesign, Problemlösung
+- **Notwendige Hardware:** 3D-Drucker, Filament, Messwerkzeuge, Schrauben/Werkzeug zur Montage
+- **Teilnehmerzahl:** 10
+- **Vorkenntnisse:** Keine erforderlich
+- **Dauer:** 2x4 Stunden
+- **Klassenstufe**: 7-11

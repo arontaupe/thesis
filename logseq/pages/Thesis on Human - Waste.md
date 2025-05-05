@@ -1,0 +1,334 @@
+title:: Thesis on Human - Waste
+author:: Aron Petau
+date:: April 2025
+public:: false
+exclude-from-graph-view:: true
+tags:: logseq, markdown, mermaid
+
+- # Human - Waste: Recycling in Social Contexts
+	- ## A thesis examining the transformative potential for society of haptic, local and immediate plastic recycling practices and their cultural implications
+	  id:: 67ae601e-d57a-4bd3-a14e-87a2253b958b
+		- ### April 2025
+			- By Aron Petau  
+			  <aron@petau.net>  
+			  4044967
+			- https://aron.petau.net
+	- ### Master's Thesis
+		- Design and Computation,
+		  [New Practice in Art and Technology](https://www.newpractice.net),
+		  [Universität der Künste Berlin](https://www.udk-berlin.de), [Technische Universität Berlin](https://www.tu.berlin/en/) 
+		  October 2024 - April 2025
+	- ### Supervisors
+		- **First Supervisor:**  
+		  [Maria Kyrou](https://www.udk-berlin.de/en/person/maria-kyrou/)  
+		  InKüLe @ UdK Berlin
+		- **Second Supervisor:**  
+		  [Prof. Albert Lang](https://www.newpractice.net/author/albert-lang)  
+		  New Practice in Art and Technology  
+		  UdK Berlin / TU Berlin
+	- —
+	- TODO  Hand In
+	  DEADLINE: <2025-04-04 Fri 12:00>
+	- TODO copy all content to Latex
+	- [[Abstract]]
+	- {{embed ((67c09a32-bfda-4663-971c-4854ae1bd399))}}
+	- ### Cultural Framework
+		- History of Trash [[@Müll: Eine schmutzige Geschichte der Menschheit]]
+		-
+			- ((67acdf29-d55e-45ab-b495-d3fba7ec7218))
+		- Waste is a result of unbounded resources
+		- Capitalism is a direct cause for waste
+			- Which is a paradox, if you follow the efficiency optimizing paradigm
+				- ((67acde0b-920c-45d9-9d6e-1128300bcb11))
+					-
+					- Trash changed not only in quantity, but in *materiality* and complexity
+						- ((67acdeae-2b88-474a-b17c-803ebfed988d))
+		- [[Waste streams to circularity]]
+	- Industrial trash pipelines
+	- Trash Perception is directly impacted by the provided infrastructure
+		- ((67ace11c-21ee-4290-b507-30df60ea4cba))
+	-
+	- Exposure to Materiality changes Agency and Realm of Thought, Provokes Expertship
+		-
+		- ((67ace203-6428-416b-b90f-d2f6a5f0ffbd))
+	- ## The Machines
+		- The Workflow is largely machine driven, i will discuss a few of them in more detail here.
+		- ### The Shredder
+		  id:: 67a4ecd5-4310-4d7a-9609-92f838bfccc0
+			- {{video https://youtu.be/QwVp1zmAA4Q}}
+			- The Precious Plastic Shredder is a versatile tool designed to efficiently break down plastic waste into small, manageable flakes, making it easier to process and recycle into new materials. Its robust design accommodates a wide variety of plastic types, enabling the creation of sustainable, high-quality outputs from discarded items. By offering an accessible and affordable solution, the shredder empowers individuals and communities to actively engage in local recycling initiatives and foster circular economies.
+			- <iframe width="400" height="400" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded&name=Shredder+Basic+V2.0&model_id=96649&portal=b2b&showDescription=true&showLicense=false&showDownloadButton=false&showHotspots=true&noAutoload=false&autoRotate=true&hideMenu=false&topColor=%23dde7ed&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="1" id="EmbeddedView-Iframe-96649" allowfullscreen></iframe>
+			- [[@Academy - Precious Plastic]]
+		- ### The Filastruder
+			- {{video https://youtu.be/FX6--pYrPVs}}
+			- This is the Filastruder, designed and made by Tim Elmore, in an attempt to create the cheapest viable way to extrude plastic. The biggest cost issue is the tight industrial tolerances in thickness that have to be adhered to. This is in essence what separates good from the bad filament. The industry standard nowadays is at +-0.03mm. Hard to achieve on a DIY setup, but not unheard of. The setup, like any bigger industry equivalent, consists of a motor pressing plastic pellets through a heated screw, extruding molten plastic at the end through a nozzle, and setting the diameter. The leftmost machine is responsible for winding the filament properly onto a spool.
+			  
+			  Here you can see the extrusion process in action.
+			- [[@Filastruder Kit]]
+			- The Filastruder is controlled by an Arduino and is highly configurable. The laser sensor visible in the video is already working, but I am missing more direct control over the diameter of the filament.
+			  
+			  When it all really comes down to the single variable of the filament diameter responsible for the quality of my recycled project, a simple Machine Learning optimization directly jumps at me: I have a few variables like winder speed, extrusion speed, heat, and cooling intensity. These variables can be optimized on the fly for an exact diameter. This is actually roughly how virgin filament is produced, commercial facilities just manage much faster.
+			- [[Plastic Extrusion Optimization Challenges]]
+		- ### The Sandwich Press
+		  id:: 67a4ecd5-86d1-4eb2-8aa5-cc377492b09d
+			- In order to create sheet goods, some kind of flattening heat source is needed. After a bit of research into cost-effecticve solutions, a ribless sandwich maker was used. It is limited to sheets the size of A4 paper. Some modification might be necessary to ensure level sheets, since the pressure is only applied along the center axis, but for the first tests, this is sufficient.
+			  It is comfortably reaching 200°C, which is enough for all plastics used in the context of the thesis. Some optimization could be achieved here by adding some form of Oven to keep plastic warm and enable larger batch sizes.
+			-
+		- ## The Oven
+			- DONE report on whether an oven was added
+			- In the workshops, an oven was tested and although it is quite useful in evenly heating up stock that is not destined to form a plate, it needs quite attentive monitoring and tends to overcook the plastic or heat unevenly, resulting in excessive plastic fumes.
+			- Further testing is required here, and an oven is definitely needed for the construction of larger batches with preheating needed, a workshop format could probably live without.
+			-
+		-
+		- ```mermaid
+		  flowchart LR
+		      title[The Plastics Recycling Process]
+		  
+		      C[Cleaning] --> A[Shredding]
+		      A -->|Sorting, Composition| B[Melting]
+		      B --> D[Extrusion]
+		      D --> E[Sheet Forming]
+		      E --> F[Quality Control]
+		      F --> G[Finished Products]
+		  
+		      D1[Filastruder] -->|Used for| D
+		      E1[Sandwich Maker] -->|Used for| E
+		  
+		      subgraph "Recycling Stages"
+		          C
+		          A
+		          B
+		          D
+		          E
+		          F
+		      end
+		  
+		      subgraph "Machines"
+		          D1
+		          E1
+		      end
+		  
+		      subgraph "End Products"
+		          G
+		      end
+		  ```
+		- ### The CNC
+			- Thanks to the support of InKüLe, there are two Shaper origins available. These are quite specialized CNC machines, in that they allow for handheld operation, making them more-than-digital fabrication tools. They require a Vector Image to work, which can be created from multiple Sources. One of particular interest here is via Shaper Trace, a workflow where it is possible to digitize any object or sketch via taking a photo of it with a specially marked reference frame.
+		- ### The Cold Press
+			- The plan:
+				- ![Cold Press](../assets/IMAGE_2025-03-01_21:40:39_1740861640106_0.jpg)
+				- Inspirational Source: {{video https://www.youtube.com/watch?v=V-GBVacDFoU}}
+				- Due to time constrains and a sad lack of access to welding, this press never got realized in time. Turns out that for artistic purposes adding a brick as weight on top of the sandwich makers works out quite fine. For the accurate among us, we did use improvised sheetpresses using 9mm Multiplex Wood (Low bend, high stability) and an assortment of clamps and found that to work rather well.
+		- ### Other tools
+			- {{embed [[Plastic Tools]]}}
+		- ## The Materials
+			- There is hundreds of types of plastics, again with hundreds of additives like pigment for colors, or softeners or stiffeners, or even non-plastics like the wood-filament everybody loves. There is Composites, Batches, Virgin and Recycled... There is simply Too much to take care of in this Format. Therefore, we will deal with a dramatically condensed version of potential Plastics Materials.
+			- In 1971, the [Society of the Plastics](http://www.socplas.org) established a standard for sorting Plastics that still prevails in much of the world. These Categories are so important, they have their own unicode symbol.
+			- {{embed [[Plastics Classes in Recycling Labels]]}}
+			- ♹ Others
+				- Anything that is unlabeled falls into this Category, making it virtually unusable in any less-than-highly-technological process.
+				- On top of that, there iss still no producer mandate to label plastics, it is a voluntary act. Any plastic not stamped or labeled is therefore automatically classified within this category
+			- [[Plastic Identification Decision Tree]]
+			- {{embed [[Plastic Identification Decision Tree]]}}
+	- ## The Trash Theory
+		- In the Book, [[@Rubbish Theory: The Creation and Destruction of Value - New Edition: The Creation and Destruction of Value - New Edition]] the author Michael Thompson argues that the value of an object is not inherent to the object itself, but rather a social construct. This is especially true for waste, which is often considered valueless and disposable. However, Thompson contends that waste can be transformed into value through social, cultural, and economic processes. By reevaluating our perceptions of waste and its potential, we can create new systems of value that promote sustainability and resourcefulness. This aims to go beyond teaching the participants how to recycle, but to fundamentally change their relationship to waste and the materials around them.
+		- ((679c975f-9f68-40f3-b4b7-1a4cbe3b3870))
+			- {{embed [[Rubbish Theory Hypothesis]]}}
+			- ```mermaid
+			  flowchart TD
+			      A[TRANSIENT<br>Value decreases with time] <-.-> B[DURABLE<br>Value increases with time]
+			      A --> C[(RUBBISH<br>No value, no time)]
+			      B -.-> C
+			      C -.-> A
+			      C --> B
+			  ```
+			- The Book establishes 3 fundamental value classes, transient, durable and rubbish. The Categories Transient and durable are no surprise here, they have been around in design theories for quite a while
+			- TODO Cite
+			- A transient object is simply an object expected to decrease in value over time, while a durable object is expected to increase in value over time. The third category, rubbish, is the novel thing introduced here.
+	- ## The Archive
+	  id:: 67a4ecd5-0907-436c-8f7b-2a24e26baf32
+	  collapsed:: true
+		- alias:: AutomatedArchive
+		- The Archive is born to capture a host of processes that typically get lost in the design and making process.
+		- It is designed to minimize interruptions within the creative workflow. As design constraints it was set that
+		  + you dont need to sit down to use it
+		  + you can operate it with one "start" interaction
+		  + it is content-agnostic: anything you hold into the camera will be documented.
+		  + it is as minimally prescriptive as possible: all the instructions telling you how to use it can be ignored and "hacking" the archive for creative purposes becomes possible
+		-
+		- In the current form, the archive operates with a config file, where i as the admin can set several settings and switch between a few different approaches: it is possible to define the Camera to be used; in a mac environment mobile archiving via the continuum camera becomes possible, see #Mobile-Scan
+		- Further, different optional analysis tools can be added to the pipeline depending on the requirements of the specific workshop.
+			- Several different OCR Algorithms can be chosen:
+				- EasyOCR
+				- Tesseract
+				- ollama-ocr
+				- #mac-Framework-Vision (built with pyobjC, utilizing pyobjc-framework-Vision)
+				-
+		- The archive is fully reachable under https://archive.petau.net
+		- {{embed [[The archiving workflow]]}}
+		- ### The Case for Markdown
+			- TODO For knowledge transfer and archiving, the digital is not always a net positive. Things get lost in the www and ever-changing digital landscapes can be frustrating for researchers or historians looking to trace the origins of ideas. No data format has really persisted since the very first days of the internet. Archiving and storage of Semantic Knowledge is a hard problem and gets harder through rapidly changing standards and platforms.
+			  id:: 67aa3b2a-0779-43f4-8c20-ceef6a9736ef
+			  Markdown, which is around since 2004, is one of very many proposals to store Knowledge in a human readable syntax in text files. It is platform agnostic, resilient against private appropriation, efficient and hopefully, long lasting. [[markdown]]
+			  I would argue, that it is almost as transformative for the digital world as the email standard. Markdown is widely adopted, open for architectures to build on top, and not dogmatically enforced. Any archival system based around Markdown will be easy to store, to maintain and simply future-proof.
+			-
+	- ### The Markers
+		- The Markers are a concept to help remove digital aspects from the catalogization process. A marker looks like this: {{embed [[Markers]] }}
+		- DONE : Add image placeholder
+		  :LOGBOOK:
+		  CLOCK: [2025-02-10 Mon 18:57:38]--[2025-02-10 Mon 18:57:38] =>  00:00:00
+		  CLOCK: [2025-02-13 Thu 15:09:44]--[2025-02-13 Thu 15:10:03] =>  00:00:19
+		  :END:
+		- Markers are like little Poker Chips, which can be placed in the frame of the camera. The Camera can then use these markers to understand some context of the image being captured. This functions in effect much like a tagging system, but there is no screen and no digital post-processing needed. The piece of knowledge is added to the archive already in an ordered fashion, minimizing the upkeep of the archive. This makes the system accessible at scale in the context of a workshop, where no intimate Database knowledge is needed in order to contribute meaningfully to the corpus.
+	- ## The Workshop Concept
+		- ### Reasoning behind the Workshop
+			- Plastics pollution is one of the most pressing environmental challenges of our time, yet recycling processes are often monopolized by industrial systems that prioritize economic efficiency over ecological sustainability. The ReShaping Plastics workshop aims to empower participants with hands-on experience in recycling and reimagining plastic waste as a valuable resource, fostering a sense of agency against an otherwise overwhelming global issue.
+			  This workshop is open to participants from all disciplines, requiring no prior experience. Over the course of two sessions, participants will learn to construct a DIY plastic sheet press and explore innovative methods for recycling plastic waste into durable and functional objects. The small group size (maximum 6 participants) ensures an intimate, collaborative environment tailored to the capabilities of the tools provided.
+			  The workshop encourages a shift in perspective, treating plastic not as disposable waste but as a versatile material capable of new forms and functions. By engaging directly with the processes of sorting, shredding, heating, and molding plastic waste, participants will gain practical skills and insights into sustainable design practices and circular economies.
+			  The workshop balances technical instruction with creative exploration, culminating in the production of personalized objects such as engraved cutting boards, modular clamps, or experimental prototypes. Participants will leave with a deeper understanding of plastics' lifecycle and the tools to advocate for and contribute to ecological innovation in their communities.
+			  This is not just a recycling workshop—it's an opportunity to rethink waste, create tangible solutions, and spark a broader dialogue on sustainability and material culture.
+		- ### Material studies (_Materialstudien_)
+			- As visible here, [[@Bauhaus]] already the 1920s Bauhaus movement pioneered the idea that it might be a pedagogiaclly useful exercise to restrict oneself to a certain set of materials, in order to explore the very base attributes of it. The Bauhaus tradition differentiates between "Materiestudien" and "Materialstudien", the former instigating students to look at the base properties of a material, to facilitate choosing the right material for specific tasks, while in the "Materialstudien" the students got consciously restricted to a single material to bring about novel and unexpected applications of it
+			- An example in Paper: [[@Albers Paper Exercises]]
+				- ![An example in Paper: [[@Albers Paper Exercises]]](../assets/image_1739183355042_0.png)
+				  id:: 67b3a7d9-d68b-4883-9138-73291dbaf0aa
+			- The present workshop adopts this approach by focusing on the material properties of plastic, encouraging unconventional uses and applications that challenge conventional perceptions of plastic. Here, exploration of techniques is fostered through a specific selection of tools presented to participants. Effectively, a Material study is conducted, where we focus on recycled plastic waste as the sole material but leave personal autonomy in workflow design and choice of method.
+		- ## [The Exposee](https://www.udk-berlin.de/universitaet/online-lehre-an-der-universitaet-der-kuenste-berlin/inkuele/immaterialities-reshaping-plastic/)
+			- This hands-on workshop invites participants to actively address plastic pollution by transforming waste into durable, meaningful objects. Unlike traditional industrial recycling, which often prioritizes economic over ecological concerns, this workshop empowers individuals to reclaim and repurpose plastic in a way that fosters creativity, sustainability, and personal agency.
+			  The workshop unfolds in two sessions. In the first, participants will sort, wash, and shred plastic waste using a Precious Plastic Shredder, creating small flakes. These flakes will then be heated in a Panini press, transforming them into a malleable plastic mass, which will be molded using a DIY plastic sheet press. The resulting sheets will be finished with woodworking tools, and participants can add personal engravings with a CNC machine, allowing for unique, patterned designs.
+			  The final products, shaped through a combination of heat, pressure, and craftsmanship, will reflect the individual designs and creativity of each participant. Whether through engraving or coloring, participants will gain hands-on experience with the potential of upcycling plastic waste into functional, aesthetic objects.
+			  This workshop offers a tangible way to engage with the global issue of plastic pollution, encouraging participants to reconsider the life cycle of everyday materials. It is a way of reformulating transient objects into durable/lasting objects, an alchemical formula for design.
+		- ### The Workshop Intent
+			- What skills should the participants acquire?
+			  
+			  The workshop aims to equip participants with the following skills:
+			  
+			  The intent with the workshop is not educational. It is of course helpful to get to know more details one didn't know about types of plastic, but it is not assumed here that the participants will remember all the details. The intent is to change the participants relationship to waste and the materials around them. The participants should leave the workshop with a different perspective on the materials around them, and the potential of these materials. Just to view Plastics as a material source afterwards is already a significant change in perception.
+			  
+			  I love used furniture. I love restoring it, cleaning it, acknowledging that i made it possible it can last a few more years instead of going towards the trash. With the german Sperrmüll system, which is handled municipally, in many Towns discarded Objects spend quite a while on the streets before being actually discarded. It is a kind of limbo, the in the original sense of the word, a waiting hall where meaning and value is deducted until one is sorted into their proper category of hell. Despite a varying and disputed legal status, these Limbo-Objects on the streets have quite a following and are often taken in by passing-by people.
+			  I also occasionally find some objects of value in these piles. They are kind of a rebalancing mechanism on the valuation economy of objects. I would argue that price is not the only category to measure value in our society, not even an idealized and theoretical one. Taking an about-to-be-discarded object in and attaching a new valuation to it is powerful and an everyday experience i think.
+			  
+			  A habit forms, one of scanning the environment for these kinds of liminal objects. The perception attunes and through the habit, my success rate of discovery of liminal objects increases.
+			  
+			  The workshop intends to exploit on this habit-making and perception-activating. The participants should leave the workshop with a renewed habit of scanning their environment for potential materials.
+	- ### The ethics code
+		- We need to strife to remove the paternalistic and colonial aspects of this scanning
+		  What is paternalistic about it?
+		  What is colonizing about it?
+		  Merely walking the streets with the view of "How can it serve me?" is potentially quite a damaging perspective and I am not advocating for that here.
+		  Objects are not merely to be transformed into materials ready for exploitation.
+	- ### The liminal object
+		- What is a liminal object?
+		- ((67ab952d-e731-4065-bf08-b75d96dbeebd)) [[@Liminality]]
+		- TODO Liminality describes two things: It understands something to be in the background of something else, in a kind of forgotten state, and it also describes something to be hybrid, of malleable, uncertain status, like it is still to be decided.
+		  Waste is a liminal category.
+		- This is a category not formed by Thompson in [[@Rubbish Theory: The Creation and Destruction of Value - New Edition: The Creation and Destruction of Value - New Edition]] , at least not explicitly. For me, the liminal object is within the transient object category. It is an object that is in the process of being discarded, but has not yet been fully discarded. Thompson, coming from an economic perspective, writes
+	- ### Human-as-Waste
+		- [[@The Human-As-Waste, the Labor Theory of Value and Disposability in Contemporary Capitalism]]
+		- How does Capitalism play a role with trash production?
+			- ((679cab7e-6d44-4fd6-a8c7-e8c7568524b4))
+	- The Out of sight out of mind mentality:
+		- ((679cac2e-4958-4b9d-9aff-7602e473ff2a))
+	- ### Workshop Documentation
+		- Find a more detailed documentation in the appendix
+	- ### Archival Practices
+		- How can many Workshops coalesce into a larger movement? what kind of knowledge needs to be transferred between iterations?
+		  Is there a method to be extracted?
+		  Could the Process Knowledge be packaged and reduced in order to share on a website?
+	- ### Workshop second Iteration
+		- Within the context of my work in the [studio einszwovier](https://www.gvb-berlin.de/unterricht-plus/arbeitsgemeinschaften/maker-space-studio-einszwovier/) at the Gabriele-von-Bülow Gymnasium, I was able to conduct a second iteration of the workshop. The workshop was conducted with a group of 10 students, aged 14-16, over the course of two days. The students were introduced to the principles of recycling and sustainable design, focusing on the transformation of plastic waste into functional objects. The workshop included hands-on activities such as sorting, shredding, and molding plastic waste, as well as creative exercises to explore the potential of recycled materials.
+		- The Workshop took place in the studio, with materials collected and processed in the school
+		- TODO documentation
+	- ## Evaluation
+	  id:: 67a9eab2-914f-4c58-8c75-8a78c13cc843
+		- What are the Criteria? How do we measure them?
+		  The evaluation criteria for this thesis and workshop are structured to assess the effectiveness and impact of the proposed solutions. The following points outline the key criteria for evaluation:
+		- **Participant Engagement and Transformation**  
+		  Evaluate whether participants demonstrate a shift in perception towards plastic waste, viewing it as a valuable resource rather than disposable material.
+		- **Technical Feasibility and Usability**  
+		  Assess the functionality and accessibility of the developed tools and processes, ensuring they are user-friendly and replicable in diverse settings.
+		- **Creative Outcomes and Innovation**  
+		  Measure the diversity, functionality, and creativity of the objects produced by participants, reflecting the potential of recycled materials.
+		- **Sustainability and Impact**  
+		  Examine the workshop's contribution to sustainable practices and its alignment with circular economy principles, including long-term usability and reduction of waste.
+		- **Knowledge Transfer and Skill Development**  
+		  Analyze the participants' acquisition of new skills, understanding of material lifecycles, and ability to apply the workshop's methods independently.
+		- **Community and Collaborative Impact**  
+		  Consider how the workshop fosters collaboration and builds networks among participants, encouraging collective action in recycling and sustainability.
+		  These criteria will form the foundation for a comprehensive evaluation of the project's success and its potential for broader application.
+		- ### Evaluating Participants Feedback
+			- The End of the workshop featured a 20 minute feedback round, serving to evaluate the didactic aspects of the workshop as a format and potentially collecting evidence on a perspectival shift that occurred during the workshop. The Participants were asked to share a few insights and their views, especially regarding:
+			  + The open, explorative format,
+			  + the Utility of the #UploadStation,
+			  + their perspective on the role of plastics in society.
+			-
+			- ### **1. Changes in Perception of Plastic as a Material**
+				- Participants expressed a shift in their view of plastic, recognizing its potential for creative reuse.
+				- Initially, some saw plastic as waste, but the workshop demonstrated its malleability and potential for transformation. One participant noted, 
+				  >"It was really nice to experiment with everything, even though there was not like this one final product in the end."
+				- The ability to create new objects from discarded plastic was seen as an eye-opening experience. 
+				  >"We could easily see that new things can be made out of old things, and it's like a very nice thing."
+				- Some participants now appreciate plastic in a new way, even stating, "I love plastic now after the workshop."
+			- ### **2. Impact of the Hands-On Format**
+				- The exploratory, research-based approach allowed participants to focus on process over final products.
+				  >"I was thinking beforehand which product to make, but it was nice that we were not focusing on the final product, but more on the process and on finding out something."
+				- Many found it liberating to experiment without pressure to create a finished item. 
+				  >"It was more for the sake of finding new things out and experimenting with something new instead of just trying to achieve something."
+				- The hands-on nature encouraged playful engagement and deepened understanding of recycling possibilities.
+				- Participants valued collaboration, learning new techniques from each other, and overcoming technical challenges together. "So many people helped me along the way, explaining how to use the drill, the printer, and stick it together—it was a real group effort."
+			- ### **3. Techniques and Experimentation**
+				- The workshop introduced various plastic manipulation techniques, such as using a soldering iron for fusing, molding, layering, and bubble-forming.
+				- Experiments included making beams for furniture, translucent effects, and exploring different types of plastic. 
+				  > "I tried molding a strip of plastic onto a bottle, but it just stuck down on both sides — it was just nice to play around and try out different things."
+				- Documentation moments helped participants reflect on their process and material interactions. 
+				  >"Sometimes you get so deep into the making process, you forget that this is #PP, you know, material, and then the documentation process gives you a little time to reflect."
+			- ### **4. Ethical and Environmental Considerations**
+			- Some participants grappled with the ethical implications of repurposing plastic:
+				- "Are we going to just produce more plastic in the end? Because we didn’t solve the problem yet."
+				- Concerns were raised about the energy and material loss involved in recycling plastic into new objects. "Making new things also costs—it costs energy, it costs money, you lose material."
+			- Despite these concerns, the consensus was that working with existing plastic is better than letting it go to waste. "The plastic is there, it's not shrinking—might as well use it."
+			- ### **5. Reflections on the Workshop Structure**
+				- Participants appreciated the open-ended nature, allowing for personal exploration. "I like that the workshop was two days because yesterday we explored things, and today we had an idea of what we wanted to make."
+				- Some felt that rather than finding one essential product to make, the focus should remain on experimentation and material understanding. "Maybe we have so many products already, it's not about finding one new product to make."
+				- The **two-day** format allowed for both exploration and more structured making on the second day.
+				- The collaborative nature of the workshop was highlighted as a strength, with individuals supporting each other’s learning.
+			- ### **6. Future Directions and Next Steps**
+				- Some participants expressed interest in continuing to explore plastic manipulation, potentially visiting other community workshops.
+			- ### **Conclusion**
+			  The workshop successfully changed perceptions of plastic, offering a hands-on, experimental space for creative recycling. While some ethical meta-questions remain, the experience encouraged deeper engagement with the material and collaborative learning. Future iterations will refine the approach and explore applications in different settings.
+	- ## Discussion
+		- Has transformation in Participants occurred?
+		  What Processes are visiblein the entries made by participants?
+		  Which Marker Categories were important to them?
+		  Was there a Marker category that was missed?
+		  How do the Material studies work? Are they able to show novel properties of a materiality?
+		- TODO /: Collect Statements
+		  Between Workshop formats: what was different? Did the outcome Change? was the course impacted by the archive already forming?
+		  Is there any emotionality towards the Materiality or the Knowledge obtained?
+	- ### Outlook
+		- What are the next steps?
+		  What could be done further?
+		  Workshop format in schools
+			- the Archive could be expanded
+			- Skill Trees for all kinds of Material transformations could be invented.One idea is to explore expanding the wonderfully gamified Levelling system of Steph Piper [[@Skill seeker: color in, level up, and get inspired]]
+	- #### Speculation
+		- What might a future application look like?
+		  In future workshops, participants will continue to engage in hands-on activities that transform waste materials into functional objects. An area of deeper investigation will be the integration of digital fabrication tools and techniques alongside traditional methods
+		- How do i expect the Format to scale? Is that something desirable?
+		- What will happen to the archive? Are there ways to attach permanency?
+	- ## Bibliography
+		- TODO export from zotero
+	- ## Appendix
+		- TODO glossary?
+		- ### Artist CV
+		  id:: 67c09a32-feaf-4026-8dfe-ae95146a5e6f
+			- [Aron Petau](https://aron.petau.net)
+			  id:: 67c09a32-2a03-4661-bce5-df7e01e7c4df
+				- (he/him) studies Design and Computation at the Technical University and the University of the Arts Berlin. As a freelance supervisor of makerspaces, his focus lies at the intersection of media and technology education and creative processes.
+				  With a background in Cognitive Science, Aron has already worked on several projects related to the digitalization of education. His interest lies primarily in technologies that enable self-empowerment. He is particularly passionate about 3D printing and is researching non-industrialized and decentralized approaches to recycling and reusing plastic sustainably, treating it not as waste but as a valuable resource.
+				  Aron is also interested in reflecting on the societal impact of technologies and exploring ways to shape this impact in a collaborative and community-oriented manner.
+			-
+		- ### Acknowledgments
+			- I would like to express my deepest gratitude to my supervisors, Maria Kyrou and Prof. Albert Lang, for their invaluable guidance and support throughout this project. Their expertise and encouragement have been instrumental in shaping my research and practice. I would also like to thank the participants of the ReShaping Plastics workshop for their enthusiasm and creativity, which inspired me to explore new possibilities in recycling and design. Finally, I am grateful to my family and friends for their unwavering encouragement and belief in my work. This thesis would not have been possible without their support.
+		- ## Workshop documentation
+			- TODO : Insert Photos from Workshops, take excerpts from Archival uploads

@@ -1,0 +1,4 @@
+- [How to Identify Unmarked Plastic](https://www.youtube.com/watch?v=biW2YN7bRW0)
+- [[@Identification of Polymers]]
+- [[Plastic Identification Decision Tree]]
+-

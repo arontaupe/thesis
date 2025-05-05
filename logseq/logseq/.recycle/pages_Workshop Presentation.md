@@ -1,0 +1,37 @@
+public:: true
+
+- # Reshaping Plastics
+	- A workshop by [Aron Petau](https://aron.petau.net), supported by [InKüLe](https://www.inkuele.de)
+	-
+- ## Overview
+	- 2 Days, each 4 h
+		- Day 1
+			- The Archive and how to feed it
+				- Uploading a test documentation
+			- Step 1:
+				- Making a token
+					- Sketch it out and CNC with Shaper Trace
+			- Step 2:
+				- Making a Material Study
+					- What to observe?
+						- Joinery
+						- Surface
+						- Aesthetics
+						- Shape
+						- Material
+			- Group Formation: Groups of 2
+			- Prepping and Producing the first set of sheets
+		- Day 2:
+			-
+- ## Types of plastics
+- ## Whe Workflow
+	- ### The Machines
+		- ((67a4ecd5-4310-4d7a-9609-92f838bfccc0))
+		- ((67a4ecd5-86d1-4eb2-8aa5-cc377492b09d))
+	-
+- ## The Archive
+	- You are supposed to document your processes with a custom-built archive. The Archive Starts with a document camera
+	- ((67a4ecd5-0907-436c-8f7b-2a24e26baf32))
+	- Ways to interact:
+	- Via iPad, sketching digitally, DEBUG: [[Drawing Test]]
+	- Via Document Camera, using OCR and Object recognition

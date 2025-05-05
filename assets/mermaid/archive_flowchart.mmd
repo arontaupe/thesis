@@ -1,0 +1,31 @@
+%%{init: {
+  "theme": "default",
+  "themeVariables": {
+    "fontFamily": "Source Serif Pro",
+    "fontSize": "16px"  }
+}}%%
+graph TD;
+    A[Archivar] -->|Keypress| B[Document Camera];
+    A --> |Shortcut, Voice command|BM[Mobile Camera]
+    BM --> |Transmits|B1;
+    B --> |Transmits|B1;
+    
+    subgraph Code Evaluation
+     B1[Capture Image from Camera];
+        B1 --> C1[Extract Text using OCR];
+        C1 -->|Tesseract/EasyOCR| D1[Check Readability with textstat];
+        C1 -->|Ollama Vision| E1[Generate Description, Caption];
+        B1 --> F1[Detect Markers using SIFT/ORB];
+        D1 -->|Meaningful Text| G1[Text Postprocessing];
+        G1--> F[Hashtag detection, pyobjC]
+        E1 --> G1;
+        B1 --> H1[Save Original Image];
+        H1 --> I1[Upload Image to Logseq, Pintry];
+        F1 --> J1[Save Annotated Image];
+        J1 --> K1[Store in Logseq Assets];
+        F --> L1[Timestamp, build tags, match Text and Images, crosslink Pinry and Archive];
+        I1 --> L1;
+        K1 --> L1;
+        L1 --> M[Logseq Export, build html]
+    end
+    M --> N[Interactive Websites]

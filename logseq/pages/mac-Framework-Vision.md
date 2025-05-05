@@ -1,0 +1,2 @@
+- this is the current default OCR algorithm utilized in the [[Archive Backend]], it enables using the macOS-native Vision framework for text recognition, barcode detection and QR-code detection. It can also do pose estimation, face recognition, and other potentially interesting tasks for the archiving pipeline.
+-

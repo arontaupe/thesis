@@ -1,0 +1,5 @@
+- ![Academy_FloatingProperties_A3.pdf](../assets/Academy_FloatingProperties_A3_1740168330256_0.pdf)
+- ![Academy_VisualProperties_A3.pdf](../assets/Academy_VisualProperties_A3_1740168334445_0.pdf)
+- ![Academy_Types_A3.pdf](../assets/Academy_Types_A3_1740168337133_0.pdf)
+- ![Academy_PhysicalProperties_A4.pdf](../assets/Academy_PhysicalProperties_A4_1740168340753_0.pdf)
+- ![Academy_MeltingTemps_A3.pdf](../assets/Academy_MeltingTemps_A3_1740170116274_0.pdf)

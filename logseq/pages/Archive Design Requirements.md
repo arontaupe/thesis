@@ -1,0 +1,4 @@
+- Should be able to scan text.
+- Should capture sketches and drawings
+- Should recognize Marker and implement sorting logic based on them
+- Should function without a Screen

@@ -1,0 +1,2 @@
+- How to structure the evaluation?
+	- How should i modify the document upload for it to serve as evaluation material?

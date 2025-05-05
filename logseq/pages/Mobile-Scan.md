@@ -1,0 +1,1 @@
+- Mobile-Scan is a separate shortcut to the Archive, enabling triggering the archiving process in a mobile fashion from a smartphone camera, potentially also enabling a trigger by speech, since everything is set up through apple shortcuts.

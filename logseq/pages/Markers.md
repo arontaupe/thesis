@@ -1,0 +1,50 @@
+public:: true
+tags:: markers
+
+	- ## 1. Material & Composition
+	- ### Plastic Types
+	- PET
+	- HDPE
+	- PVC
+	- LDPE
+	- PP
+	- PS
+	- O
+	- ### Other Materials
+	- Composite
+	- ## 2. Physical Properties
+	- Surface
+	- Density
+	- Color
+	- Shape
+	- ## 3. Mechanical & Sensory Properties
+	- Haptics
+	- Flexibility
+	- Joinery
+	- ## 4. Processing & Manufacturing
+	- Tool
+	- Press
+	- Hot Air
+	- Shredder
+	- ## 5. Observation & Analysis
+	- Observation
+	- Process
+	-
+	- ### Joinery
+		- ![joinery.png](../assets/joinery_1739391355594_0.png){height 150, :width 150}
+	- ### Aesthetic
+		- ![aesthetic.png](../assets/aesthetic_1739391481670_0.png){height 150, :width 150}
+	- ### Material
+		- ![material.png](../assets/material_1739391359067_0.png){height 150, :width 150}
+	- ### Observation
+		- ![observation.png](../assets/observation_1739391364833_0.png){height 150, :width 150}
+	- ### Process
+		- ![process.png](../assets/process_1739391366854_0.png){height 150, :width 150}
+	- ### Shape
+		- ![shape.png](../assets/shape_1739391369111_0.png){height 150, :width 150}
+	- ### Surface
+	  id:: 67b48546-7fb6-429b-a162-894c9444737e
+		- ![surface.png](../assets/surface_1739391371547_0.png){height 150, :width 150}
+	- ### Tool
+		- ![tool.png](../assets/tool_1739391373054_0.png){height 150, :width 150}
+	-

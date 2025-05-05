@@ -1,0 +1,5 @@
+- https://sites.google.com/view/wertstatt/startseite
+-
+- The wertstatt is a community workshop in the https://www.refo-moabit.de
+- they have a big plastic beam extruder, an injection press and a very nice industrial plastic shredder
+-
