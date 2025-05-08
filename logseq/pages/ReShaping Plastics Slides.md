@@ -4,9 +4,6 @@ theme:: night
 author:: Aron Petau
 date:: 2025-02-26
 tags:: slide
-main-font-size:: 12
-text-align:: left
-slide-number:: true
 
 - # Reshaping Plastics
   

@@ -427,10 +427,10 @@
  :feature/enable-flashcards? false
  :feature/enable-journals? true
  :default-home {:page "AutomatedArchive Landing"}
- :graph/settings {:orphan-pages? true
+ :graph/settings {:orphan-pages? false
  :excluded-pages? false
  :builtin-pages? false
- :journal? true}
- :graph/forcesettings {:link-dist 50
- :charge-strength -1000
- :charge-range 1600}}
+ :journal? false}
+ :graph/forcesettings {:link-dist 110
+ :charge-strength -600
+ :charge-range 2600}}
