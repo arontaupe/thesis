@@ -5,10 +5,11 @@ tags:: thesis, notes
 date:: 2025-05-08
 timestamp:: 16:00:00
 
-- intro
+- intro: **Human - Waste**
 - supervisors, Human Waste: Recycling in social Contexts
-- Core Components: Theory, Workshop, Machine Archivist
+- Core Components: **Theory**, **Workshop**, **Machine Archivist**
 - Outline
+  collapsed:: true
 	- Hypothesis
 	- Concepts: Transmattering, Liminality, Rubbish Theory
 	- Archiving, what for?
@@ -23,58 +24,97 @@ timestamp:: 16:00:00
 		- How to go on?
 	- Questions
 - History
-	- Plastics as revolution
-	- Plastics as disease
-	- Plastics as Waste
-	- Plastics as value
+	- **Plastics-as-Revolution**
+	- **Plastics-as-disease**
+	- **Plastics-as-Waste**
+	- **Plastics-as-value**
 - Hypothesis
-	- - What - Why - How
-		- Thinking workshops-as-infrastructure, as Scaffolding
-		- plastics-as-value through re-narration
-		- combining workshop-as-infrastructure and archiving to create plastics-as-value
+	- What - Why - How
+		- Thinking **workshops-as-infrastructure**, as Scaffolding
+		- plastics-as-value through **re-narration**
+		- **Synthesis**: combining workshop-as-infrastructure and archiving to create plastics-as-value
 - Concepts:
-	- Rubbish Theory
-	- Knowing Waste - Hyperobject Hird Nuclear Example
+	- **Rubbish Theory**
+		- Durable, Transient, Rubbish
+			- Value theory --> Economics, basically Stock Market
+	- **Knowing Waste** - Hyperobject Hird Nuclear Example
 		- Waste, defined as the discarded, always evades conceptualization
 			- Logics, Technosolutionism, and scalable Industry never solve problem
-			- Only way out: Haraway, Cyborg, Barad: Ontoepistemology
-	- Transmattering
-		- ‘Mattering is simultaneously a matter of substance and
-		  significance (Iovino and Oppermann)
+			- Only way out: Haraway, Cyborg, Barad: Onto-epistemology
+	- **Transmattering**
+		- "Mattering is simultaneously a matter of substance and
+		  significance" (Iovino and Oppermann)
 		- Extraction, Change of context, Re-Matterization
-	- The liminal is a precondition for transmattering
-		- The Bracketed, the background, the ex-negativo definition, the ritualized un-learning, the fluid
-	- Waste is Liminal
+		- **Liminality**: The liminal is a precondition for transmattering
+			- The Bracketed, the background, the ex-negativo definition, the ritualized un-learning, the fluid
+	- **Waste is Liminal**
 		- Waste can be re-narrated
-	- The Scavenger-Gaze
+			- Therefore, plastics too
+	- **The Scavenger-Gaze**
 		- Scavenging: The practice of collecting materials from Waste/Objects
 		- something we can train
 		- Implies we often cannot see the material in the object
 	- Material studies
-		- Just basteln...
-		- Paper, ceramics, glass, steel
+		- Here is a material, explore its **affordances**
+		- **Just basteln...**
+		- Historic Examples: Paper, ceramics, glass, steel
 - Why Archive??
 	- Workshop yields epistemes, but how to harvest? How to transfer?
 	- We need a machine to transmatter knowledge
 - Genesis:
 	- Why not Filament?
 	- Why Plastics?
-	- Plastics are craftable. We just dont know about it yet
+		- Plastics are young
+		- Plastics are Industrialized, invisible: **Product vs Material**
+	- **Plastics are craftable.** We just dont know about it yet
 - Introduce the Workshop: All stations
-	- Desk Area
-	- Upload Station
+	- Fotos for each
+	- **Desk Area**
+	- **Upload Station**
 	- Machines
-		- Shredder
-		- Material Station
-		- Heat Area
-		- CNS Station
-		- Post-Processing
-- Marker explanation: Taxonomy, Hashtags
+		- **Shredder**
+		- **Material Station**
+		- **Heat Area**
+		- **CNS Station**
+		- **Post-Processing**
+- **Marker for Taxonomy**, Hashtags
+	- Markers as hashtags
+	- Markers as authorship
+	- Markers as taxonomy
 - Back end description
-	- Design goal: 1-click
-	- Pre-sorted
-	- Open World
-	- Analogue, non-interruptive
-	-
-- Archive Pinry
--
+	- Design goals:
+		- **1-click automation**
+		- **set-and-forget**
+		- **pre-taxonomized** --> categorized
+		- Open World / Closed World as didactic choice
+		- **Analog**, non-interruptive, minimally invasive
+	- Show Overview graph
+	- Functionality:
+		- Detect Marker
+			- **Template Matching**
+			- **Optical Character Recognition (OCR)**
+				- Apple Vision Framework
+		- Optional LLM
+			- Ollama
+			- LLM Caption
+		- Markdown-base: Searchable, human- and machine-Readable
+- Online Demo
+	- Archive
+		- Timeline
+		- Graph
+			- Pages, Tags
+		- Page:
+			- OCR
+			- Photo
+			- Keypoints
+	- Pinry
+		- Mood-Board Style, condensed Image View
+		- Also tagged
+		- Bi-directional connection
+- Evaluation
+	- Go online, test out
+- ---
+- Discussion Elements
+	- Why Paper / why analog?
+		- Affordances of Paper, Napkin sketch
+			- Digital affordances piggybacking
