@@ -9,13 +9,14 @@ timestamp:: 16:00:00
 - supervisors, Human Waste: Recycling in social Contexts
 - Core Components: **Theory**, **Workshop**, **Machine Archivist**
 - Outline
-  collapsed:: true
-	- Hypothesis
+	- History
 	- Concepts: Transmattering, Liminality, Rubbish Theory
+	- Hypothesis
 	- Archiving, what for?
 	- Creating the Workshop
 	- Setup, Machines, Stations
 	- Machine Archivist
+	- Demo
 	- Evaluation
 	- Discussion
 		- Why go analogue?
@@ -23,6 +24,7 @@ timestamp:: 16:00:00
 		- Why scavenging gaze in Education?
 		- How to go on?
 	- Questions
+	-
 - History
 	- **Plastics-as-Revolution**
 	- **Plastics-as-disease**
@@ -68,15 +70,14 @@ timestamp:: 16:00:00
 		- Plastics are Industrialized, invisible: **Product vs Material**
 	- **Plastics are craftable.** We just dont know about it yet
 - Introduce the Workshop: All stations
-	- Fotos for each
+	- ()Fotos for each
 	- **Desk Area**
+	- **Shredder**
+	- **Material Station**
+	- **Heat Area**
+	- **CNC Station**
+	- **Post-Processing**
 	- **Upload Station**
-	- Machines
-		- **Shredder**
-		- **Material Station**
-		- **Heat Area**
-		- **CNS Station**
-		- **Post-Processing**
 - **Marker for Taxonomy**, Hashtags
 	- Markers as hashtags
 	- Markers as authorship
@@ -118,3 +119,4 @@ timestamp:: 16:00:00
 	- Why Paper / why analog?
 		- Affordances of Paper, Napkin sketch
 			- Digital affordances piggybacking
+		-
