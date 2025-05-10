@@ -77,7 +77,11 @@ timestamp:: 16:00:00
 - Back end description
 	- Design goals:
 		- **1-click automation**
+			- immersion in creation
+			- no scientific housekeeping
 		- **set-and-forget**
+			- extensible
+			- applicable as method to other wicked problems
 		- **pre-taxonomized** --> categorized
 		- Open World / Closed World as didactic choice
 		- **Analog**, non-interruptive, minimally invasive
@@ -112,14 +116,27 @@ timestamp:: 16:00:00
 	- Go online, test out
 - ---
 - Discussion Elements
-	- Why go analogue?
-	- Why automate?
 	- **The Scavenger-Gaze**
 		- Scavenging: The practice of collecting materials from Waste/Objects
 		- something we can train
 		- Implies we often cannot see the material in the object
 		- Why **scavenging gaze in Education**?
-		-
+	- **The Makerspace**
+		- “[We] identified four key “studio structures” as central to the design of studio learning
+		  environments: (1) in demonstration-lectures, teachers pose open-ended challenges,
+		  show exemplars, and demonstrate processes to engage and inform students, (2) in
+		  students-at-work, students work on their art and teachers circle the room observing and
+		  giving “just-in-time” instruction, (3) in critiques, the working process is paused as the
+		  group collectively reflects on student work, and (4) in exhibitions, students’ work is
+		  shared with a community beyond the studio classroom.”
+		  — Sheridan et al. (2014, p. 508)
+			- 4 pillars of a studio learning infrastructure
+				- **demonstration-lectures**
+				- students-at-work, **just-in-time instruction**
+				- **critiques**
+				- **exhibitions**
+				-
+			-
 	- How to go on?
 -
 -
