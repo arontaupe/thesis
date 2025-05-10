@@ -19,10 +19,6 @@ timestamp:: 16:00:00
 	- Demo
 	- Evaluation
 	- Discussion
-		- Why go analogue?
-		- Why automate?
-		- Why scavenging gaze in Education?
-		- How to go on?
 	- Questions
 	-
 - History
@@ -30,19 +26,10 @@ timestamp:: 16:00:00
 	- **Plastics-as-disease**
 	- **Plastics-as-Waste**
 	- **Plastics-as-value**
-- Hypothesis
-	- What - Why - How
-		- Thinking **workshops-as-infrastructure**, as Scaffolding
-		- plastics-as-value through **re-narration**
-		- **Synthesis**: combining workshop-as-infrastructure and archiving to create plastics-as-value
 - Concepts:
 	- **Rubbish Theory**
 		- Durable, Transient, Rubbish
 			- Value theory --> Economics, basically Stock Market
-	- **Knowing Waste** - Hyperobject Hird Nuclear Example
-		- Waste, defined as the discarded, always evades conceptualization
-			- Logics, Technosolutionism, and scalable Industry never solve problem
-			- Only way out: Haraway, Cyborg, Barad: Onto-epistemology
 	- **Transmattering**
 		- "Mattering is simultaneously a matter of substance and
 		  significance" (Iovino and Oppermann)
@@ -52,14 +39,15 @@ timestamp:: 16:00:00
 	- **Waste is Liminal**
 		- Waste can be re-narrated
 			- Therefore, plastics too
-	- **The Scavenger-Gaze**
-		- Scavenging: The practice of collecting materials from Waste/Objects
-		- something we can train
-		- Implies we often cannot see the material in the object
 	- Material studies
 		- Here is a material, explore its **affordances**
 		- **Just basteln...**
 		- Historic Examples: Paper, ceramics, glass, steel
+- Hypothesis
+	- What - Why - How
+		- Thinking **workshops-as-infrastructure**, as Scaffolding
+		- plastics-as-value through **re-narration**
+		- **Synthesis**: combining workshop-as-infrastructure and archiving to create plastics-as-value
 - Why Archive??
 	- Workshop yields epistemes, but how to harvest? How to transfer?
 	- We need a machine to transmatter knowledge
@@ -78,10 +66,14 @@ timestamp:: 16:00:00
 	- **CNC Station**
 	- **Post-Processing**
 	- **Upload Station**
-- **Marker for Taxonomy**, Hashtags
-	- Markers as hashtags
-	- Markers as authorship
-	- Markers as taxonomy
+- Marker
+	- **Marker for Taxonomy**, Hashtags
+		- Markers as authorship
+			- ID Markers serve for evaluation
+		- Markers as taxonomy
+			- Markers as hashtags
+		- Markers serve as pre-structuring agent
+			- Markers are reflection infrastructure
 - Back end description
 	- Design goals:
 		- **1-click automation**
@@ -89,6 +81,10 @@ timestamp:: 16:00:00
 		- **pre-taxonomized** --> categorized
 		- Open World / Closed World as didactic choice
 		- **Analog**, non-interruptive, minimally invasive
+			- Why Paper / why analog?
+				- Affordances of Paper, Napkin sketch
+					- Digital affordances piggybacking
+					-
 	- Show Overview graph
 	- Functionality:
 		- Detect Marker
@@ -116,7 +112,22 @@ timestamp:: 16:00:00
 	- Go online, test out
 - ---
 - Discussion Elements
-	- Why Paper / why analog?
-		- Affordances of Paper, Napkin sketch
-			- Digital affordances piggybacking
+	- Why go analogue?
+	- Why automate?
+	- **The Scavenger-Gaze**
+		- Scavenging: The practice of collecting materials from Waste/Objects
+		- something we can train
+		- Implies we often cannot see the material in the object
+		- Why **scavenging gaze in Education**?
 		-
+	- How to go on?
+-
+-
+-
+- ---
+- Takeouts
+	- Concepts
+		- **Knowing Waste** - Hyperobject Hird Nuclear Example
+			- Waste, defined as the discarded, always evades conceptualization
+				- Logics, Technosolutionism, and scalable Industry never solve problem
+				- Only way out: Haraway, Cyborg, Barad: Onto-epistemology
