@@ -9,6 +9,7 @@ timestamp:: 16:00:00
 - supervisors, Human Waste: Recycling in social Contexts
 - Core Components: **Theory**, **Workshop**, **Machine Archivist**
 - Outline
+  collapsed:: true
 	- History
 	- Concepts: Transmattering, Liminality, Rubbish Theory
 	- Hypothesis
@@ -118,19 +119,15 @@ timestamp:: 16:00:00
 	- Go online, test out
 - ---
 - Discussion Elements
+	- **Temporary Autonomous Zone** (Hakim Bey, Peter Lamborn Wilson)
 	- **The Scavenger-Gaze**
 		- Scavenging: The practice of collecting materials from Waste/Objects
 		- something we can train
 		- Implies we often cannot see the material in the object
 		- Why **scavenging gaze in Education**?
+	-
 	- **The Makerspace**
-		- “[We] identified four key “studio structures” as central to the design of studio learning
-		  environments: (1) in demonstration-lectures, teachers pose open-ended challenges,
-		  show exemplars, and demonstrate processes to engage and inform students, (2) in
-		  students-at-work, students work on their art and teachers circle the room observing and
-		  giving “just-in-time” instruction, (3) in critiques, the working process is paused as the
-		  group collectively reflects on student work, and (4) in exhibitions, students’ work is
-		  shared with a community beyond the studio classroom.”
+		- “[We] identified four key “studio structures” as central to the design of studio learning environments: (1) in demonstration-lectures, teachers pose open-ended challenges, show exemplars, and demonstrate processes to engage and inform students, (2) in students-at-work, students work on their art and teachers circle the room observing and giving “just-in-time” instruction, (3) in critiques, the working process is paused as the group collectively reflects on student work, and (4) in exhibitions, students’ work is shared with a community beyond the studio classroom.”
 		  — Sheridan et al. (2014, p. 508)
 			- 4 pillars of a studio learning infrastructure
 				- **demonstration-lectures**
@@ -139,7 +136,10 @@ timestamp:: 16:00:00
 				- **exhibitions**
 				-
 			-
-	- How to go on?
+	- Summary:
+		- workshop as infrastructure
+		- performative re-narration of value
+	-
 -
 -
 -
