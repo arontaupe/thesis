@@ -39,25 +39,26 @@ timestamp:: 16:00:00
 	- **Waste is Liminal**
 		- Waste can be re-narrated
 			- Therefore, plastics too
-	- Material studies
+	- **Material studies**
 		- Here is a material, explore its **affordances**
 		- **Just basteln...**
 		- Historic Examples: Paper, ceramics, glass, steel
+	- Why Archive??
+		- Workshop yields epistemes, but how to harvest? How to transfer?
+		- We need a machine to transmatter knowledge
 - Hypothesis
 	- What - Why - How
 		- Thinking **workshops-as-infrastructure**, as Scaffolding
 		- plastics-as-value through **re-narration**
 		- **Synthesis**: combining workshop-as-infrastructure and archiving to create plastics-as-value
-- Why Archive??
-	- Workshop yields epistemes, but how to harvest? How to transfer?
-	- We need a machine to transmatter knowledge
 - Genesis:
 	- Why not Filament?
-	- Why Plastics?
+	- **Why Plastics?**
 		- Plastics are young
 		- Plastics are Industrialized, invisible: **Product vs Material**
 	- **Plastics are craftable.** We just dont know about it yet
 - Introduce the Workshop: All stations
+	- show workflow graph
 	- ()Fotos for each
 	- **Desk Area**
 	- **Shredder**
@@ -75,6 +76,7 @@ timestamp:: 16:00:00
 		- Markers serve as pre-structuring agent
 			- Markers are reflection infrastructure
 - Back end description
+	- Show Overview graph
 	- Design goals:
 		- **1-click automation**
 			- immersion in creation
@@ -89,7 +91,7 @@ timestamp:: 16:00:00
 				- Affordances of Paper, Napkin sketch
 					- Digital affordances piggybacking
 					-
-	- Show Overview graph
+	-
 	- Functionality:
 		- Detect Marker
 			- **Template Matching**
@@ -99,7 +101,7 @@ timestamp:: 16:00:00
 			- Ollama
 			- LLM Caption
 		- Markdown-base: Searchable, human- and machine-Readable
-- Online Demo
+- Online **Demo**
 	- Archive
 		- Timeline
 		- Graph
