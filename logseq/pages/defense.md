@@ -6,13 +6,13 @@ date:: 2025-05-08
 timestamp:: 16:00:00
 
 - intro: **Human - Waste**
-	- relations between
+	- relations between human and waste, perception, social dynamics
+	- How do we value objects?
 - Core Components:
 	- **Theory**,
 	- **Workshop**,
 	- **Machine Archivist**
 - Outline
-  collapsed:: true
 	- **Intro**
 	- **History**
 	- **Concepts**
@@ -32,19 +32,29 @@ timestamp:: 16:00:00
 	- **Plastics-as-Waste**
 	- **Plastics-as-value**
 - Concepts:
-	- **Rubbish Theory**
+	- **Rubbish Theory**, Creation and destruction of Value
+		- Michael Thompson, 80ies
 		- Durable, Transient, Rubbish
+			- Durables: Vintage Wine, Painting, Classic Car
+			- Transients: Plastic Packaging, Consumables, Foodstuffs
+			- Rubbish: The discarded object. zero or negative value
 			- Value theory --> Economics, basically Stock Market
 	- **Transmattering**
+		- KAROLINA ŻYNIEWICZ, 2023
 		- "Mattering is simultaneously a matter of substance and
 		  significance" (Iovino and Oppermann)
 		- Extraction, Change of context, Re-Matterization
+		- Transformation, but stronger: transformation of matter, meaning and relation
 		- **Liminality**: The liminal is a precondition for transmattering
 			- The Bracketed, the background, the ex-negativo definition, the ritualized un-learning, the fluid
+			- Applies to both the Agent and the Object
+			- The hypothetical space
+			- The **counterfactual**
 	- **Waste is Liminal**
 		- Waste can be re-narrated
 			- Therefore, plastics too
 	- **Material studies**
+		- Josef Albers: 1928
 		- Here is a material, explore its **affordances**
 		- **Just basteln...**
 		- Historic Examples: Paper, ceramics, glass, steel
@@ -52,17 +62,16 @@ timestamp:: 16:00:00
 		- Workshop yields epistemes, but how to harvest? How to transfer?
 		- Communicable
 		- We need a machine to transmatter knowledge
+		- Find a way to make immediate knowledge persist
 - **Hypothesis**
 	- What - Why - How
 		- Thinking **workshops-as-infrastructure**, as Scaffolding
 		- plastics-as-value through **re-narration** and performance
 		- **Synthesis**: combining workshop-as-infrastructure and archiving to create plastics-as-value
-- Genesis:
-	- Why not Filament?
-	- **Why Plastics?**
-		- Plastics are young
-		- Plastics are Industrialized, invisible: **Product vs Material**
+- **Why Plastics?**
 	- **Plastics are craftable.** We just dont know about it yet
+	- Plastics are young: 1907: 0 tonnes, 1950: half million tonnes, 2016: 335mio tonnes
+	- Plastics are Industrialized, invisible: **Product vs Material**
 - Introduce the **Workshop**: All stations
 	- show workflow graph
 	- ()Fotos for each
