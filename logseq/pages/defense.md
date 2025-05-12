@@ -6,22 +6,26 @@ date:: 2025-05-08
 timestamp:: 16:00:00
 
 - intro: **Human - Waste**
-- supervisors, Human Waste: Recycling in social Contexts
-- Core Components: **Theory**, **Workshop**, **Machine Archivist**
+	- relations between
+- Core Components:
+	- **Theory**,
+	- **Workshop**,
+	- **Machine Archivist**
 - Outline
   collapsed:: true
-	- History
-	- Concepts: Transmattering, Liminality, Rubbish Theory
-	- Hypothesis
-	- Archiving, what for?
-	- Creating the Workshop
-	- Setup, Machines, Stations
-	- Machine Archivist
-	- Demo
-	- Evaluation
-	- Discussion
-	- Questions
-	-
+	- **Intro**
+	- **History**
+	- **Concepts**
+	- **Hypothesis**
+	- **The Workshop**
+	- **Machine Archivist**
+	- **Demonstration**
+	- **Learning in the making**
+	- **Questions**
+- Fields
+	- **Material Ecocriticism**
+	- **Valuation Studies**
+	- **Discard Studies**
 - History
 	- **Plastics-as-Revolution**
 	- **Plastics-as-disease**
@@ -44,13 +48,14 @@ timestamp:: 16:00:00
 		- Here is a material, explore its **affordances**
 		- **Just basteln...**
 		- Historic Examples: Paper, ceramics, glass, steel
-	- Why Archive??
+	- **Why Archive??**
 		- Workshop yields epistemes, but how to harvest? How to transfer?
+		- Communicable
 		- We need a machine to transmatter knowledge
-- Hypothesis
+- **Hypothesis**
 	- What - Why - How
 		- Thinking **workshops-as-infrastructure**, as Scaffolding
-		- plastics-as-value through **re-narration**
+		- plastics-as-value through **re-narration** and performance
 		- **Synthesis**: combining workshop-as-infrastructure and archiving to create plastics-as-value
 - Genesis:
 	- Why not Filament?
@@ -58,7 +63,7 @@ timestamp:: 16:00:00
 		- Plastics are young
 		- Plastics are Industrialized, invisible: **Product vs Material**
 	- **Plastics are craftable.** We just dont know about it yet
-- Introduce the Workshop: All stations
+- Introduce the **Workshop**: All stations
 	- show workflow graph
 	- ()Fotos for each
 	- **Desk Area**
@@ -75,8 +80,8 @@ timestamp:: 16:00:00
 		- Markers as taxonomy
 			- Markers as hashtags
 		- Markers serve as pre-structuring agent
-			- Markers are reflection infrastructure
-- Back end description
+			- Markers are reflection infrastructure !!
+- **Machine Archivist**
 	- Show Overview graph
 	- Design goals:
 		- **1-click automation**
@@ -86,7 +91,7 @@ timestamp:: 16:00:00
 			- extensible
 			- applicable as method to other wicked problems
 		- **pre-taxonomized** --> categorized
-		- Open World / Closed World as didactic choice
+			- Open World / Closed World as didactic choice
 		- **Analog**, non-interruptive, minimally invasive
 			- Why Paper / why analog?
 				- Affordances of Paper, Napkin sketch
@@ -101,7 +106,7 @@ timestamp:: 16:00:00
 		- Optional LLM
 			- Ollama
 			- LLM Caption
-		- Markdown-base: Searchable, human- and machine-Readable
+		- **Markdown**-base: Searchable, human- and machine-Readable
 - Online **Demo**
 	- Archive
 		- Timeline
@@ -115,9 +120,6 @@ timestamp:: 16:00:00
 		- Mood-Board Style, condensed Image View
 		- Also tagged
 		- Bi-directional connection
-- Evaluation
-	- Go online, test out
-- ---
 - Discussion Elements
 	- **Temporary Autonomous Zone** (Hakim Bey, Peter Lamborn Wilson)
 	- **The Scavenger-Gaze**
@@ -139,14 +141,3 @@ timestamp:: 16:00:00
 	- Summary:
 		- workshop as infrastructure
 		- performative re-narration of value
-	-
--
--
--
-- ---
-- Takeouts
-	- Concepts
-		- **Knowing Waste** - Hyperobject Hird Nuclear Example
-			- Waste, defined as the discarded, always evades conceptualization
-				- Logics, Technosolutionism, and scalable Industry never solve problem
-				- Only way out: Haraway, Cyborg, Barad: Onto-epistemology
